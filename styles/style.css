@@ -1,0 +1,143 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/* top banner style */
+section{
+    display: flex;
+    align-items: center;
+}
+.top-banner{
+    background-color: #2D25A0;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+
+}
+
+h1{
+    font-size: 64px;
+    color: #FFFFFF;
+    line-height: 0.3;
+    
+
+}
+
+.link-button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+     transition: font-size 0.3s 0.1s;
+   
+    
+
+}
+.link-button:hover{
+    
+    font-size: 30px;
+    
+
+
+}
+.half-width img{
+    width: 100%;
+}
+/* finished top banner style */
+
+
+/* my players */
+
+
+.flexible-container{
+    margin-left: 150px;
+    margin-top: 80px; 
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.one-third-width{
+    
+    width: 300px;
+    height: 474px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    background: #FFFFFF; 
+    
+
+}
+
+.one-third-width img{
+    
+    width: 300px;
+    height: 256px;
+     
+ 
+    
+}
+.one-third-width h3{
+    font-size: 28px;
+     font-weight: 700; 
+}
+p{
+    font-size: 16px;
+    color: #6C6C6C;
+    font-style: normal;
+    
+}
+/* finished my players */
+/* footer style */
+footer{
+    text-align: center;
+    margin-top: 100px;
+}
+footer img{
+    width: 483.87px;
+    height: 110px; 
+}
+ 
+footer p{
+    font-size: 18px;
+    color: #000000;
+    font-weight: normal;
+}
+.distance{
+    margin-left: 10px;
+    background-color:lightgray;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+/* finished footer style  */
+/* Media Queries */
+
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+    section{
+        display:block;
+    }
+    h1{
+        line-height: 0.9;
+        font-size: 30px;
+    }
+    .flexible-container{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 0px;
+    }
+    footer img{
+        height: 50px;
+        width: 150px;
+    }
+    footer{
+        margin-right: 100px;
+    }
+    
+}
+
+
+
+
